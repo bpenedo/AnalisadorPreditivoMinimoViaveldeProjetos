@@ -1,0 +1,14 @@
+# AnalisadorPreditivoMinimoViaveldeProjetos
+# Autor: ProfBru - Bruno Penedo © 2026 - TODOS OS DIREITOS RESERVADOS
+# E-mail: profbruanbima@gmail.com
+[package]
+name = "apmv_core"
+version = "0.1.0"
+edition = "2021"
+description = "Segundo motor independente do Analisador Preditivo Mínimo Viável de Projetos (prova cruzada)"
+
+[dependencies]
+
+[profile.release]
+opt-level = 3
+lto = true
